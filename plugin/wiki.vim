@@ -5,3 +5,5 @@ augroup MpvAudioWikiMappings
     " TODO: The BufLeave is running twice
     autocmd BufLeave */music/*.md,music/*.md silent! nunmap <buffer> <cr>
 augroup END
+
+command! WikiPush !wiki -c
